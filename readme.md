@@ -8,7 +8,7 @@
 
 >$ http-server
 
-# how test
+# how to test using Nightmare.js
 > $ cd test
 
 
