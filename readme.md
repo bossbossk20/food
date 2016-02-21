@@ -3,7 +3,7 @@
 
 
 # how how run
->$npm install http-server -g
+>$ npm install http-server -g
 >$ http-server
 
 # how test
