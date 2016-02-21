@@ -470,3 +470,10 @@ footer h2{margin-bottom:40px;}
 
 .fixedsocial{z-index:999; position:fixed; bottom:400px; width:20px;  min-height:50px;  padding:8px 0px;}
 .fixedsocial a{text-decoration:none;}
+
+.divMenuSelected{
+  float: left;
+  width: 100%;
+  height: auto;
+  background-color: burlywood;
+}
