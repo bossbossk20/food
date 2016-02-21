@@ -13,6 +13,7 @@ angular.module('app', [])
 
     $('.food').addClass('active')
     $('.drink').removeClass('active')
+
     app.food = function () {
       app.showFood = false
       app.showDrink = true
@@ -31,6 +32,7 @@ angular.module('app', [])
       app.pageFood = page
       console.log('hhh')
     }
+
     app.addFood = function (img, title, price) {
       app.yourOrder = true
       var jsonFood = {
@@ -41,6 +43,7 @@ angular.module('app', [])
       app.foodSelected.push(jsonFood)
       sumOfProducts()
     }
+
     app.addDrink = function (img, title, price) {
       app.yourOrder = true
       var jsonDrink = {
@@ -87,5 +90,4 @@ angular.module('app', [])
         app.total = app.sumPrice[0] + app.sumPrice[1]
       }
     }
-
   })
