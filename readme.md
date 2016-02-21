@@ -15,4 +15,4 @@
 
 > $ node app.Test.js  
 
-![ screenshot](img/screen.png)
+![ screenshot](images/screen.png)
