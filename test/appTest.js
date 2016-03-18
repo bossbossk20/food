@@ -16,8 +16,15 @@ nightmare
   .click('#drink2')
   .wait(1000)
   .click('#drink1')
-  .wait(10000)
+  .wait(1000)
+  .evaluate(function () {
+    return document.querySelector('#totalPrice').innerHTML
+  })
   .end()
   .then(function (result) {
-    console.log(result)
+    if (parseInt(result) === 189) {
+      console.log(true)
+    } else {
+      console.log('false : result = ', result)
+    }
   })
